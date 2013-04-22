@@ -1,0 +1,12 @@
+/* main css */
+.input {
+    display: block;
+}
+.user {
+    color: blue;
+    font-weight: bold;
+}
+.data-container {
+    display: block;
+    float: left;
+}
