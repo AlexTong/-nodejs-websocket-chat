@@ -70,6 +70,10 @@ wsServer.on("request", function(request){
     });
 });
 
+process.addListener('uncaughtException', function (err) {
+  console.log('Caught exception: ' + err);
+});
+
 var doReject = function(request) {
     // return request.origin !== ORIGIN;
     return false;
